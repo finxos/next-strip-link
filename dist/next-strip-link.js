@@ -2,7 +2,7 @@
  * name: next-strip-link
  * url: https://github.com/afeiship/next-strip-link
  * version: 1.0.0
- * date: 2019-09-17T09:03:08.370Z
+ * date: 2019-09-17T09:05:23.180Z
  * license: MIT
  */
 
