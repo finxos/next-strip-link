@@ -2,7 +2,7 @@
  * name: next-strip-link
  * url: https://github.com/afeiship/next-strip-link
  * version: 1.0.0
- * date: 2019-09-17T09:05:23.180Z
+ * date: 2019-09-17T09:07:29.747Z
  * license: MIT
  */
 
@@ -16,12 +16,6 @@
     if (!inUrl) return inUrl;
     var isSharp = inUrl.indexOf(SHARP) > -1;
     var isWechat = inUrl.indexOf(QQ_DOMAIN) > -1;
-    var url;
-    if (isSharp && isWechat) {
-      url = inUrl.split(SHARP)[0];
-    } else {
-      url = inUrl;
-    }
     return isSharp && isWechat ? inUrl.split(SHARP)[0] : inUrl;
   };
 

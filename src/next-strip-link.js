@@ -8,12 +8,6 @@
     if (!inUrl) return inUrl;
     var isSharp = inUrl.indexOf(SHARP) > -1;
     var isWechat = inUrl.indexOf(QQ_DOMAIN) > -1;
-    var url;
-    if (isSharp && isWechat) {
-      url = inUrl.split(SHARP)[0];
-    } else {
-      url = inUrl;
-    }
     return isSharp && isWechat ? inUrl.split(SHARP)[0] : inUrl;
   };
 
