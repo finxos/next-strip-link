@@ -3,7 +3,7 @@
 
 ## installation
 ```bash
-npm install -S afeiship/next-strip-link --registry=https://registry.npm.taobao.org
+npm install -S finxos/next-strip-link --registry=https://registry.npm.taobao.org
 ```
 
 ## usage
